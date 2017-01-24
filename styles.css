@@ -1,0 +1,125 @@
+/* 
+   Super Recruits style sheet 
+   Filename: styles.css
+
+   Author: 1612707  
+   Date:   17 Nov 2016  
+   WCD Assignment
+ */
+ 
+ a, body, div, header, footer, article, h2, nav, figure, figcaption, p{
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+html{
+	background: url("Photos/background.jpg");
+}
+
+/* Body */
+.container{
+	max-width:1040px;
+	margin:0 auto;
+	background-color:#C6E869;
+	border:3px solid #000000;
+}
+
+/* Header Section */
+header img{
+	border-bottom:3px solid #000000;
+	display:block;
+}
+
+h2{
+	background-color:#A3C448;
+}
+
+/* Main Content */
+article{
+	float:right;
+    width:73.7%;
+    border-left:3px solid #000000 ;
+	position:relative;
+}
+
+article h2{
+	text-align:center;
+	padding: 0.5em;
+	font-family: 'Yrsa', Times, Georgia, serif;
+	font-size:2em;
+	border-bottom:3px solid #000000;
+}
+
+article p{
+	font-size:1.2em;
+	padding:0.8em 2em 0em 2em;
+    font-family: 'PT Sans', Arial, Tahoma, sans-serif;
+	position:relative;
+	float:left;
+	}
+	
+article figure{
+	padding:1em 7em;
+}
+
+article img{
+	float:right;
+	display:inline-block;
+	padding:1em 5em;
+}	
+	
+figcaption{
+	text-align:center;
+	padding:0.5em;
+}	
+
+/* Site Navigation */
+nav.sitenavigation{
+	float:left;
+	padding: 0em 0em 21.2em 0em;
+	width:26%;
+	font-family: 'PT Sans', Arial, Verdana, sans-serif;
+	position:relative;
+}
+
+nav.sitenavigation h2{
+	position:relative;
+	border-bottom:3px solid #000000;
+	padding:0.84em 0.5em;
+}
+
+nav.sitenavigation a:link{
+	color:#000000;
+	text-decoration:none;
+}
+
+nav.sitenavigation a:visited{
+	color:#800080;
+	text-decoration:none;
+}
+
+nav.sitenavigation a:hover{
+	color: #0000FF;
+	text-decoration:none;
+}
+
+nav.sitenavigation p{
+	font-size:1.2em;
+	padding:0.5em;
+}
+
+/* Footer Section */
+footer{
+	margin:36.8em 0 0;
+	border-top:3px solid #000000;
+	width:100%;
+	position:relative;
+	background-color:#81AB0A;
+}
+
+footer p{
+	text-align:center;
+	padding:2em;
+	font-family: 'Libre Franklin', Arial, Verdana, sans-serif;
+}
